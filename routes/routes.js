@@ -43,7 +43,7 @@ router.post('/purchase', function(req, res) {
                 currency: 'usd'
             }).then(function() {
                 console.log('Charge Successful')
-                res.json({ message: 'Payment Purchased Items'})
+                res.json({ message: 'Purchase complete, thank you for your payment.'})
             }).catch(function(){
                 console.log('Charge Failed')
                 res.status(500).end()

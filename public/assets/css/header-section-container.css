@@ -1,0 +1,28 @@
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("../images/album1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
