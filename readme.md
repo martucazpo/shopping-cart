@@ -1,7 +1,7 @@
 ## Shopping Cart
 
 
-Shopping Cart is a clone of the Web Dev tutorial on building a modern web page [shopping cart tutorial](https://www.youtube.com/watch?v=YeFzkC2awTM&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=2&t=33s). In the tutorial the shopping portion of the web page uses stripe to make payments. A Node server is built and the secret keys for stripe are kept in a .env file. My only deviations from the tutorial were to put the routes in their own file and the css in multiple files as the css file was very long (and I wanted to see if it would work).
+Shopping Cart is a clone of the Web Dev tutorial on building a modern web page: [shopping cart tutorial](https://www.youtube.com/watch?v=YeFzkC2awTM&list=PLZlA0Gpn_vH9k5ju1yq9qCDqvtuTVgTr6&index=2&t=33s). In the tutorial the shopping portion of the web page uses Stripe to make payments. A Node server is built and the secret keys for Stripe are kept in a .env file. My only deviations from the tutorial were to put the routes in their own file and the css in multiple files as the css file was very long (and I wanted to see if it would work).
 
 Here is the shopping cart with some items to be purchased:
 ![waiting in checkout](public/assets/images/readmeImg/one.png)
@@ -18,4 +18,6 @@ Payment is successful and a message is sent back to the customer.
 Finally, upon payment, the cart empties:
 ![all done](public/assets/images/readmeImg/five.png)
 
-Again, I would like to thank WebDev Simplified [Web Dev](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)! The tutorials are always great. Besides learning about building a shopping cart, I also learned a great deal more about CSS. Thank you!
+Again, I would like to thank [WebDev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)! The tutorials are always great. Besides learning about building a shopping cart, I also learned a great deal more about CSS. Thank you!
+
+This app is deployed on Heroku: [deployed app](https://obscure-tor-08613.herokuapp.com/store) and is on GitHub [GitHub](https://martucazpo.github.io/shopping-cart/)
